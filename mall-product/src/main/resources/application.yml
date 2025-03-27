@@ -4,6 +4,11 @@ spring:
     password: 666898
     url: jdbc:mysql://192.168.174.132:3306/gulimall_pms
     driver-class-name: com.mysql.cj.jdbc.Driver
+  application:
+    name: mall-product
+  cloud:
+    nacos:
+      server-addr: localhost:8848
 
 # MapperScan
 # sql映射文件位置
